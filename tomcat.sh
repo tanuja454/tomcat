@@ -18,7 +18,7 @@ open this
 sudo nano /opt/tomcat/webapps/manager/META-INF/context.xml
 just comment the valve path, to access the manager
 again go to this path
-vi /opt/tomcat/webapps/host-manager/META-INF/context.xml
+nano /opt/tomcat/webapps/host-manager/META-INF/context.xml
 cmt this 
 <!--<Valve className="org.apache.catalina.valves.RemoteAddrValve"
   allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" /> -->
